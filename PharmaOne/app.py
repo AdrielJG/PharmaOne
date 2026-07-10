@@ -30,11 +30,11 @@ contract = web3.eth.contract(address=contract_address, abi=contract_abi)
 
 # Wallet credentials
 wallet_address = '0xf6781D5aD2650110ee44a37CC7d58A60ac00E4ad'
-wallet_private_key = '60e489d6e80ccc8c64261110984ece5e03e372cd88acb0cc76496260b55a880b'  
+wallet_private_key = ''  
 app = Flask(__name__)
 
 # MongoDB configuration
-MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://rahulsonawane280305:duIPNAZpQ9rPC8pC@cluster0.g8seh.mongodb.net/')
+MONGO_URI = os.getenv('MONGO_URI', '')
 client = MongoClient(MONGO_URI)
 db = client['test']
 users_collection = db['users'] 

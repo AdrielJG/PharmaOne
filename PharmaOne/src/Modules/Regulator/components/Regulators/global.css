@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    line-height: normal;
+    background-image: url("Group 1171274989.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+  }
+  
+input{
+  font-size: larger;
+  padding-left: 10px;
+  cursor: default;
+}
+
+input:hover{
+  background-color: #adacac;
+  transition: 0.4s ease;
+}
+
+input:not(:hover){
+  transition: 0.4s ease;
+}
+
+
+
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+    --font-avenir: Avenir;
+  
+    /* font sizes */
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-3xl: 22px;
+    --font-size-lg: 18px;
+    --font-size-5xl: 24px;
+    --font-size-lgi: 19px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-dimgray-100: #666;
+    --color-dimgray-200: rgba(102, 102, 102, 0.8);
+    --color-dimgray-300: rgba(102, 102, 102, 0.35);
+    --color-dimgray-400: rgba(102, 102, 102, 0.25);
+    --color-darkslategray: #333;
+    --color-gray: #111;
+    --color-crimson: #ee1d52;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+    --gap-base: 16px;
+    --gap-5xl: 24px;
+    --gap-5xs: 8px;
+    --gap-9xs: 4px;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-base: 16px;
+    --padding-mini: 15px;
+    --padding-10xs: 3px;
+  
+    /* Border radiuses */
+    --br-xs: 12px;
+    --br-21xl: 40px;
+  }
+  /* Global Scrollbar Styles */
+
+/* For Webkit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00796b;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #004d40;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #00796b #f1f1f1;
+}
